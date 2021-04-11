@@ -11,36 +11,14 @@
     <title> {% block title %} {% endblock title %} </title>
   </head>
   <body>
-  {% comment %} <div class="container">
-    <div class="alert alert-warning alert-dismissible fade show my-0 px-0 py-0" role="alert">
-    <strong>Info!</strong> Login to ask queries.
-    <button type="button" class="btn-close px-0 py-0" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-  </div> {% endcomment %}
-<header class="p-3 bg-dark text-white">
-  <div class="container">
-    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ml-10">
-      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      </a>
-
-      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="/" class="nav-link px-2 text-white">Home</a></li>
-        <li><a href="/Projects" class="nav-link px-2 text-white">Projects</a></li>
-        <li><a href="/Cp" class="nav-link px-2 text-white">Competitive programming</a></li>
-        <li><a href="/Ask" class="nav-link px-2 text-white">Ask</a></li>
-        <li><a href="/About" class="nav-link px-2 text-white">About Me</a></li>
+  <div class="header bg-dark">
+      <ul class="nav justify-content-center" style="padding-top:16px; padding-bottom:16px;font-size:18px">
+        <li style="margin-right:20px"><a href="/" class="nav-link px-2 text-white">Home</a></li>
+        <li style="margin-right:20px"><a href="/Projects" class="nav-link px-2 text-white">Projects</a></li>
+        <li style="margin-right:20px"><a href="/Cp" class="nav-link px-2 text-white">Competitive programming</a></li>
+        <li style="margin-right:20px"><a href="/Ask" class="nav-link px-2 text-white">Ask</a></li>
+        <li style="margin-right:20px"><a href="/About" class="nav-link px-2 text-white">About Me</a></li>
       </ul>
-
-      {% comment %} <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-        <input type="search" class="form-control form-control-dark" placeholder="Search...">
-      </form> {% endcomment %}
-
-      <div class="text-end">
-        <button type="button" class="btn btn-outline-light me-2">Login</button>
-        <button type="button" class="btn btn-warning">Sign-up</button>
-      </div>
-    </div>
   </div>
 </header>
 
