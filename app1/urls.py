@@ -21,6 +21,6 @@ urlpatterns = [
     path("",views.home,name="home"),
     path("Cp",views.cp,name="cp"),
     path("Projects",views.proj,name="Projects"),
-    path("Ask",views.ask,name="Ask"),
+    path("Contact",views.contact,name="contact"),
     path("About",views.about,name="About"),
 ]

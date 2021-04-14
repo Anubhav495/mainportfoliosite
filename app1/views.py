@@ -6,8 +6,8 @@ def home(request):
     return render(request,"home.html")
 def cp(request):
     return render(request,"Cp.html")
-def ask(request):
-    return render(request,"Ask.html")
+def contact(request):
+    return render(request,"contact.html")
 def proj(request):
     return render(request,"Projects.html")
 def about(request):
