@@ -19,7 +19,5 @@ from app1 import views
 
 urlpatterns = [
     path("",views.home,name="home"),
-    path("Cp",views.cp,name="cp"),
-    path("Projects",views.proj,name="Projects"),
-    path("About",views.about,name="About"),
+    
 ]

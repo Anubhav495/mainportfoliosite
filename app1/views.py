@@ -4,10 +4,5 @@ from django.shortcuts import render,HttpResponse
 
 def home(request):
     return render(request,"home.html")
-def cp(request):
-    return render(request,"Cp.html")
-def proj(request):
-    return render(request,"Projects.html")
-def about(request):
-    return render(request,"About.html")
+
 
